@@ -55,7 +55,9 @@ Responder perguntas com base no seu conhecimento do Valorant: agentes, armas, ec
 **Pergunta:** Melhor setup de Killjoy para Ascent?  
 **Resposta:**  
 **Ascent - Bomb A:** Torre no generator, alarme na entrada do main e nanos nos dois cantos do spike. Ideal para segurar push com retake rápido.
-  `;
+  ---
+  Aqui está a pergunta do usuário: ${question}
+`;
   const perguntaCS2 = `# Especialidade
 Você é uma especialista assistente de meta para o jogo ${game}
 
@@ -77,7 +79,9 @@ Responder perguntas com base no CS2: armas, economia, granadas, táticas, mapas 
 **Pergunta:** Qual a melhor smoke para dominar meio na Mirage?  
 **Resposta:**  
 **Mirage - Meio:** Smoke da base T para janela é essencial. Posicione-se no canto da parede, mire no canto da moldura e pule ao lançar. Garante controle de meio sem risco da AWP.
-  `;
+ ---
+  Aqui está a pergunta do usuário: ${question}
+`;
   const perguntaArk = `# Especialidade
 Você é uma especialista assistente de meta para o jogo ${game}
 
@@ -99,6 +103,8 @@ Responder perguntas com base em dinossauros, breeding, farm, PvP/PvE, engramas, 
 **Pergunta:** Melhor dino para farmar metal?  
 **Resposta:**  
 **Ankylosaurus** é o melhor para farmar metal. Leve um Argentavis para carregar o Anky e transportar o metal com redução de peso.
+---
+  Aqui está a pergunta do usuário: ${question}
 `;
   let pergunta = "";
   if (game === "ark") {
