@@ -32,6 +32,7 @@
               <option value="valorant">Valorant</option>
               <option value="lol">League of Legends</option>
               <option value="cs2">CS2</option>
+              <option value="ark">ARK Survival Envolved</option>
             </select>
             <input
               id="questionInput"
@@ -41,12 +42,13 @@
             />
             <button id="askButton">Perguntar</button>
           </form>
-          <div id="aiResponse">
+          <div id="aiResponse" class="hidden">
             <div class="response-content"></div>
           </div>
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
